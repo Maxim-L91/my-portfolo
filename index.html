@@ -8,8 +8,117 @@
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <div class="wrapper">
+    <!-- Link to consultation -->
+    <div class="consultation">
+      <button class="consultation__btn" 
+              type="button" 
+              aria-labelledby="consultation__text"
+      >
+        <svg  class="consultation__icon" 
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg" 
+              width="24" 
+              height="24" 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
+              stroke-width="2" 
+              stroke-linecap="round" 
+              stroke-linejoin="round">
+          <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+          <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+        </svg>
+      </button>
+      <p  id="consultation__text" 
+          class="consultation__copy">Бесплатная консультация
+      </p>
+    </div>
+    <!-- Site header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-bar">
+          <div class="header-bar__logo">
+            <a  class="header-bar__link" 
+                href="index.html" 
+            >
+              Vektor Maxima
+            </a>
+          </div>
+          <nav class="header-bar__nav nav" aria-label="Основная навигация">
+            <ul class="nav__list">
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="#">
+                  Главная
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="#">
+                  Почему нужно работать со мной
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="#">
+                  Как я работаю
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="#">
+                  Мои проекты
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="#">
+                  Часто задаваемые вопросы
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a class="nav__list-link" href="#">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-bar__contacts">
+            <a class="header-bar__phone" href="tel:+78002006000">
+              +7-800-200-60-00
+            </a>
+          </div>
+        </div>
+
+        <div class="header-content first-screen">
+          <div class="first-screen__info">
+            <h1 class="first-screen__title">
+              Верстаю сайты с идеальной технической основой для SEO: Хорошая доступность, семантическая разметка, быстрая загрузка, адаптивность
+            </h1>
+            <p class="first-screen__text">
+              Сдаю проекты точно в срок. Сайт будет быстро загружаться даже при медленном интернете.
+            </p>
+            <p class="first-screen__text">
+              Работаю до полного соответствия макету. Ваш сайт будут находить в поиске — делаю техническую основу для SEO.
+            </p>
+            <div class="first-screen__actions">
+              <button class="first-screen__actions-btn" 
+                      type="button"
+                      aria-describedby="consultation-details"
+              >
+                Заказать сайт
+              </button>
+              <p  id="consultation-details"
+                  class="first-screen__actions-description">
+                Бесплатная консультация по вашему проекту. 
+                Обсудим требования, сроки и бюджет.
+              </p>
+            </div>
+          </div>
+          <div class="first-screen__avatar">
+            <img  src="assets/images/header/avatar.jpg" 
+                  alt="Фотография разработчика сайтов с которым вы будете работать"
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
 </body>
 </html>
