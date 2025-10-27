@@ -59,17 +59,7 @@
               </li>
               <li class="nav__list-item">
                 <a class="nav__list-link" href="#">
-                  Как я работаю
-                </a>
-              </li>
-              <li class="nav__list-item">
-                <a class="nav__list-link" href="#">
                   Мои проекты
-                </a>
-              </li>
-              <li class="nav__list-item">
-                <a class="nav__list-link" href="#">
-                  Часто задаваемые вопросы
                 </a>
               </li>
               <li class="nav__list-item">
@@ -122,10 +112,10 @@
 
     <main class="main">
       <!-- Section Advantages -->
-      <section class="advantages">
+      <section class="advantages" aria-labelledby="advantages-heading">
         <div class="container">
           <div class="advantages__description">
-            <h2 class="advantages__title">
+            <h2 id="advantages-heading" class="advantages__title">
               5 причин почему работать со мной выгоднее
             </h2>
           </div>
@@ -145,11 +135,11 @@
                       <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                 </svg>
               </div>
-              <strong class="advantages__card-heading">
-                Не просто делаю сайты, а решаю боли клиента
-              </strong>
+              <h3 class="advantages__card-heading">
+                Вникаю в вашу задачу, а не просто делаю «как в макете»
+              </h3>
               <p class="advantages__card-text">
-                Погружаюсь в задачу и предлагаю грамотные решения.
+                Задаю уточняющие вопросы, чтобы понять <strong>реальную цель сайта</strong>. Предлагаю улучшения, которые сделают его удобнее для ваших клиентов.
               </p>
             </li>
             <li class="advantages__card">
@@ -168,17 +158,14 @@
                   <line x1="4" y1="22" x2="4" y2="15"></line>
                 </svg>
               </div>
-              <strong class="advantages__card-heading">
-                Отчёт о выполненных этапах работы
-              </strong>
+              <h3 class="advantages__card-heading">
+                Полная прозрачность: вы видите прогресс в реальном времени
+              </h3>
               <p class="advantages__card-text">
-                Полная прозрачность. По Вашему желанию могу информировать Вас о каждом выполненном блоке сайта.
+                <strong>Регулярные отчеты</strong> о выполненных этапах. Если возникают сложности — сообщаю сразу, а не в день дедлайна.
               </p>
               <p class="advantages__card-text">
-                Если возникнут не предвиденные ситуации проинформирую Вас заранее.
-              </p>
-              <p class="advantages__card-text">
-                Ваш проект будет гарантированно выполнен.
+                В случае форс-мажора <strong>помогаю найти решение</strong> или подобрать другого исполнителя.
               </p>
             </li>
             <li class="advantages__card">
@@ -197,14 +184,11 @@
                   <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                 </svg>
               </div>
-              <strong class="advantages__card-heading">
-                Продвижение в поисковиках
-              </strong>
+              <h3 class="advantages__card-heading">
+                Заложу фундамент для будущего SEO-продвижения
+              </h3>
               <p class="advantages__card-text">
                 Использую ARIA атрибуты и семантичную вёрстку, что влияет на ранжирование сайта в поисковых системах.
-              </p>
-              <p class="advantages__card-text">
-                Тем самым я подготавливаю хорошую базу под SEO-оптимизацию.
               </p>
             </li>
             <li class="advantages__card">
@@ -223,11 +207,11 @@
                   <polyline points="22 4 12 14.01 9 11.01"></polyline>
                 </svg>
               </div>
-              <strong class="advantages__card-heading">
-                Быстрая загрузка сайта даже при слабом интернете
-              </strong>
+              <h3 class="advantages__card-heading">
+                Оптимизация скорости: сайт не заставит ждать ваших клиентов
+              </h3>
               <p class="advantages__card-text">
-                Пользователи Вашего сайта, смогут легко его открыть, не смотря на слабый мобильный интернет.
+                Слежу за производительностью. Сайт будет быстро загружаться даже при медленном интернете — <strong>меньше отказов, больше конверсий</strong>.
               </p>
             </li>
             <li class="advantages__card">
@@ -247,11 +231,11 @@
                   <line x1="12" y1="17" x2="12" y2="21"></line>
                 </svg>
               </div>
-              <strong class="advantages__card-heading">
-                Адаптивная вёрстка под большинство экранов
-              </strong>
+              <h3 class="advantages__card-heading">
+                Идельное отображение на любом устройстве
+              </h3>
               <p class="advantages__card-text">
-                Сайт будет прекрасно смотреться на больших компьютерах и маленьких телефонах.
+                Проверяю вёрстку на разных экранах. Ваш сайт будет одинаково удобен <strong>на телефоне, планшете и компьютере</strong>.
               </p>
             </li>
           </ul>
@@ -307,6 +291,38 @@
                 </li>
               </ol>
             </nav>
+          </div>
+        </div>
+      </section>
+      <!-- section contacts -->
+      <section class="contacts" aria-label="Связь для заказа сайта">
+        <div class="container">
+          <div class="contacts-info">
+            <h2 class="contacts-info__title">
+              Нужен сайт — Пиши в телегу!
+            </h2>
+            <p class="contacts-info__text">
+              Просто напиши, что нужен сайт, а дальше я включусь в работу
+            </p>
+            <p class="contacts-info__text">
+              Не забывай про
+              <a  class="contacts-info__link"
+                  href="https://t.me/MaximRus91"
+                  aria-label="Консультация в телеграм (откроется в новом окне)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+              >
+                бесплатную консультацию
+              </a>
+            </p>
+            <a  class="contacts-info__button"
+                href="https://t.me/MaximRus91" 
+                aria-label="Написать в Telegram (откроется в новом окне)"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              Написать в телеграм
+            </a>
           </div>
         </div>
       </section>
