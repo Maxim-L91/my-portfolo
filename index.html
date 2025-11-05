@@ -34,27 +34,30 @@
   <div class="wrapper">
     <!-- Link to consultation -->
     <div class="consultation">
-      <button class="consultation__btn" 
-              type="button" 
-              aria-labelledby="consultation__text"
+      <button 
+        class="consultation__btn"
+        type="button"
+        aria-labelledby="consultation__text"
       >
-        <svg  class="consultation__icon" 
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg" 
-              width="24" 
-              height="24" 
-              viewBox="0 0 24 24" 
-              fill="none" 
-              stroke="currentColor" 
-              stroke-width="2" 
-              stroke-linecap="round" 
-              stroke-linejoin="round">
+        <svg 
+          class="consultation__icon" 
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg" 
+          width="24" 
+          height="24" 
+          viewBox="0 0 24 24" 
+          fill="none" 
+          stroke="currentColor" 
+          stroke-width="2" 
+          stroke-linecap="round" 
+          stroke-linejoin="round">
           <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
           <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
         </svg>
       </button>
-      <p  id="consultation__text" 
-          class="consultation__copy">Бесплатная консультация
+      <p 
+        id="consultation__text" 
+        class="consultation__copy">Бесплатная консультация
       </p>
     </div>
     <!-- Site header -->
@@ -62,8 +65,9 @@
       <div class="container">
         <div class="header-bar">
           <div class="header-bar__logo">
-            <a  class="header-bar__link" 
-                href="index.html" 
+            <a 
+              class="header-bar__link" 
+              href="index.html" 
             >
               Vektor Maxima
             </a>
@@ -71,22 +75,35 @@
           <nav class="header-bar__nav nav" aria-label="Основная навигация">
             <ul class="nav__list">
               <li class="nav__list-item">
-                <a class="nav__list-link" href="#">
+                <a 
+                  class="nav__list-link" 
+                  href="index.html"
+                  aria-current="page"
+                >
                   Главная
                 </a>
               </li>
               <li class="nav__list-item">
-                <a class="nav__list-link" href="#">
-                  Почему нужно работать со мной
+                <a 
+                  class="nav__list-link" 
+                  href="#advantages"
+                >
+                  Почему работать со мной выгодно
                 </a>
               </li>
               <li class="nav__list-item">
-                <a class="nav__list-link" href="#">
+                <a 
+                  class="nav__list-link" 
+                  href="#work"
+                >
                   Мои проекты
                 </a>
               </li>
               <li class="nav__list-item">
-                <a class="nav__list-link" href="#">
+                <a 
+                  class="nav__list-link" 
+                  href="#contacts"
+                >
                   Контакты
                 </a>
               </li>
@@ -111,43 +128,52 @@
           </div>
         </div>
 
-        <div class="header-content first-screen">
-          <div class="first-screen__info">
-            <h1 class="first-screen__title">
+        <div class="header-content">
+          <div class="header-content__info">
+            <h1 class="header-content__title">
               Верстаю сайты с идеальной технической основой для SEO: Хорошая доступность, семантическая разметка, быстрая загрузка, адаптивность
             </h1>
-            <p class="first-screen__text">
+            <p class="header-content__text">
               Сдаю проекты точно в срок. Сайт будет быстро загружаться даже при медленном интернете.
             </p>
-            <p class="first-screen__text">
+            <p class="header-content__text">
               Работаю до полного соответствия макету. Ваш сайт будут находить в поиске — делаю техническую основу для SEO.
             </p>
-            <div class="first-screen__actions">
-              <button class="first-screen__actions-btn" 
-                      type="button"
-                      aria-describedby="consultation-details"
+            <div class="header-content__actions">
+              <button 
+                class="header-content__btn" 
+                type="button"
+                aria-describedby="consultation-details"
               >
                 Заказать сайт
               </button>
-              <p  id="consultation-details"
-                  class="first-screen__actions-description">
+              <p 
+                id="consultation-details"
+                class="header-content__description"
+              >
                 Бесплатная консультация по вашему проекту. 
                 Обсудим требования, сроки и бюджет.
               </p>
             </div>
           </div>
-          <div class="first-screen__avatar">
-            <img  src="assets/images/header/avatar.jpg" 
-                  alt="Фотография разработчика сайтов с которым вы будете работать"
+          <div class="header-content__avatar">
+            <img 
+              src="assets/images/header/avatar.jpg" 
+              alt="Фотография разработчика сайтов с которым вы будете работать"
+              loading="lazy"
             >
           </div>
         </div>
       </div>
     </header>
 
-    <main class="main">
+    <main id="main" class="main">
       <!-- Section Advantages -->
-      <section class="advantages" aria-labelledby="advantages-heading">
+      <section 
+        id="advantages" 
+        class="advantages" 
+        aria-labelledby="advantages-heading"
+      >
         <div class="container">
           <div class="advantages__description">
             <h2 id="advantages-heading" class="advantages__title">
@@ -157,17 +183,18 @@
           <ul class="advantages__cards">
             <li class="advantages__card">
               <div class="advantages__card-icon">
-                <svg  aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24" 
-                      height="24" 
-                      viewBox="0 0 24 24" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      stroke-width="2" 
-                      stroke-linecap="round" 
-                      stroke-linejoin="round">
-                      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                <svg 
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24" 
+                  height="24" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                 </svg>
               </div>
               <h3 class="advantages__card-heading">
@@ -179,16 +206,17 @@
             </li>
             <li class="advantages__card">
               <div class="advantages__card-icon">
-                <svg  aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24" 
-                      height="24" 
-                      viewBox="0 0 24 24" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      stroke-width="2" 
-                      stroke-linecap="round" 
-                      stroke-linejoin="round">
+                <svg 
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24" 
+                  height="24" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round">
                   <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
                   <line x1="4" y1="22" x2="4" y2="15"></line>
                 </svg>
@@ -205,16 +233,17 @@
             </li>
             <li class="advantages__card">
               <div class="advantages__card-icon">
-                <svg  aria-hidden="true" 
-                      xmlns="http://www.w3.org/2000/svg" 
-                      width="24" 
-                      height="24" 
-                      viewBox="0 0 24 24" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      stroke-width="2" 
-                      stroke-linecap="round" 
-                      stroke-linejoin="round">
+                <svg 
+                  aria-hidden="true" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="24" 
+                  height="24" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round">
                   <circle cx="11" cy="11" r="8"></circle>
                   <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                 </svg>
@@ -228,16 +257,17 @@
             </li>
             <li class="advantages__card">
               <div class="advantages__card-icon">
-                <svg  aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg" 
-                      width="24" 
-                      height="24" 
-                      viewBox="0 0 24 24" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      stroke-width="2" 
-                      stroke-linecap="round" 
-                      stroke-linejoin="round">
+                <svg 
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="24" 
+                  height="24" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round">
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                   <polyline points="22 4 12 14.01 9 11.01"></polyline>
                 </svg>
@@ -251,16 +281,17 @@
             </li>
             <li class="advantages__card">
               <div class="advantages__card-icon">
-                <svg  aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg" 
-                      width="24" 
-                      height="24" 
-                      viewBox="0 0 24 24" 
-                      fill="none" 
-                      stroke="currentColor" 
-                      stroke-width="2" 
-                      stroke-linecap="round" 
-                      stroke-linejoin="round">
+                <svg 
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg" 
+                  width="24" 
+                  height="24" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  stroke-width="2" 
+                  stroke-linecap="round" 
+                  stroke-linejoin="round">
                   <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
                   <line x1="8" y1="21" x2="16" y2="21"></line>
                   <line x1="12" y1="17" x2="12" y2="21"></line>
@@ -277,7 +308,11 @@
         </div>
       </section>
       <!-- section How i work -->
-      <section class="work" aria-labelledby="work-heading">
+      <section 
+        id="work" 
+        class="work" 
+        aria-labelledby="work-heading"
+      >
         <div class="container">
           <div class="work-info">
             <h2 id="work-heading" class="work-info__title">
@@ -287,26 +322,29 @@
           <div class="work-projects">
             <ul class="work-projects__list">
               <li class="work-projects__item">
-                <article  class="card" 
-                          aria-labelledby="portfolio-name-heading"
+                <article 
+                  class="card" 
+                  aria-labelledby="portfolio-name-heading"
                 >
                   <div class="card__image">
                     <!-- Изображение проекта в виде img -->
                   </div>
                   <div class="card__content">
-                    <h3   id="portfolio-name-heading" 
-                          class="card__title"
+                    <h3 
+                      id="portfolio-name-heading" 
+                      class="card__title"
                     >
                       Имя проекта
                     </h3>
                     <p class="card__description">
                       Подробное описание проекта: Что за проект, какие были решены основные проблемы, на что следует обратить внимание, какие технологии использовались.
                     </p>
-                    <a  class="card__link" 
-                        href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Посмотреть живой сайт проекта 'Название сайта'"
+                    <a 
+                      class="card__link" 
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Посмотреть живой сайт проекта 'Название сайта'"
                     >
                       Открыть сайт
                     </a>
@@ -314,26 +352,29 @@
                 </article>
               </li>
               <li class="work-projects__item">
-                <article  class="card"
-                          aria-labelledby="portfolio-shop-heading"
+                <article 
+                  class="card"
+                  aria-labelledby="portfolio-shop-heading"
                 >
                   <div class="card__image">
                     <!-- Изображение проекта в виде img -->
                   </div>
                   <div class="card__content">
-                    <h3 id="portfolio-shop-heading"
-                        class="card__title"
+                    <h3 
+                      id="portfolio-shop-heading"
+                      class="card__title"
                     >
                       Имя проекта
                     </h3>
                     <p class="card__description">
                       Подробное описание проекта: Что за проект, какие были решены основные проблемы, на что следует обратить внимание, какие технологии использовались.
                     </p>
-                    <a  class="card__link" 
-                        href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Посмотреть живой сайт проекта 'Название сайта'"
+                    <a 
+                      class="card__link" 
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Посмотреть живой сайт проекта 'Название сайта'"
                     >
                       Открыть сайт
                     </a>
@@ -341,26 +382,29 @@
                 </article>
               </li>
               <li class="work-projects__item">
-                <article  class="card"
-                          aria-labelledby="portfolio-cofee-heading"
+                <article 
+                  class="card"
+                  aria-labelledby="portfolio-cofee-heading"
                 >
                   <div class="card__image">
                     <!-- Изображение проекта в виде img -->
                   </div>
                   <div class="card__content">
-                    <h3   id="portfolio-cofee-heading" 
-                          class="card__title"
+                    <h3 
+                      id="portfolio-cofee-heading" 
+                      class="card__title"
                     >
                       Имя проекта
                     </h3>
                     <p class="card__description">
                       Подробное описание проекта: Что за проект, какие были решены основные проблемы, на что следует обратить внимание, какие технологии использовались.
                     </p>
-                    <a  class="card__link" 
-                        href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Посмотреть живой сайт проекта 'Название сайта'"
+                    <a 
+                      class="card__link" 
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Посмотреть живой сайт проекта 'Название сайта'"
                     >
                       Открыть сайт
                     </a>
@@ -372,7 +416,11 @@
         </div>
       </section>
       <!-- section contacts -->
-      <section class="contacts" aria-label="Связь для заказа сайта">
+      <section 
+        id="contacts" 
+        class="contacts" 
+        aria-label="Связь для заказа сайта"
+      >
         <div class="container">
           <div class="contacts-info">
             <h2 class="contacts-info__title">
@@ -383,20 +431,22 @@
             </p>
             <p class="contacts-info__text">
               Не забывай про
-              <a  class="contacts-info__link"
-                  href="https://t.me/MaximRus91"
-                  aria-label="Консультация в телеграм (откроется в новом окне)"
-                  target="_blank"
-                  rel="noopener noreferrer"
+              <a 
+                class="contacts-info__link"
+                href="https://t.me/MaximRus91"
+                aria-label="Консультация в телеграм (откроется в новом окне)"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 бесплатную консультацию
               </a>
             </p>
-            <a  class="contacts-info__button"
-                href="https://t.me/MaximRus91?text=Здравствуйте!%20Хочу%20заказать%20сайт" 
-                aria-label="Написать в Telegram (откроется в новом окне)"
-                target="_blank"
-                rel="noopener noreferrer"
+            <a 
+              class="contacts-info__button"
+              href="https://t.me/MaximRus91?text=Здравствуйте!%20Хочу%20заказать%20сайт" 
+              aria-label="Написать в Telegram (откроется в новом окне)"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Написать в telegram
             </a>
